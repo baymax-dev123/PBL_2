@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>MAIN</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Added for consistent box model */
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Open+Sans:wght@400;500&display=swap");
+
+      .navbar {
+        width: 600px;
+        height: 60px;
+        background-color: #b7a3e3;
+        display: flex; /* Use flexbox to center content */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+
+      #titlebar {
+        display: flex; /* Use flexbox to center the title div */
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Take full height of navbar */
+      }
+
+      #title {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        color: #2c3e50;
+        display: inline-flex; /* Make it inline-flex so border wraps content */
+        /* Vertically align icon and text */
+        gap: 8px; /* Space between icon and text */
+        padding: 8px 15px; /* Padding inside the border */
+        border: 2px solid #2c3e50; /* Border around the title, matching text color */
+        border-radius: 8px; /* Slightly rounded corners for the border */
+      }
+
+      #navbar{
+        width:220px;
+        height:200px;
+        border:2px solid black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        /* text-decoration: none; */
+      }
+      #navbar summary{
+        background: #dadada;
+        text-align: right;
+        cursor: pointer;
+      }
+      deatils:not([open]){
+        width:80px;
+      }
+      .nav{
+        display:inline-block;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        /* text-decoration: double; */
+        background-color: antiquewhite
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="titlebar">
+        <div id="title"><i class="fa-solid fa-stethoscope"></i>CuraTECH</div>
+      </div>
+    </div>
+
+    <div class="nav">
+      
+        <details>
+       <summary> <i class="fa-solid fa-list-ul"></i></summary>
+        <ol>
+          <li>FIT</a></li>
+          <li>STAYING HEALTHY</a></li>
+          <li><a href="cal_calc.html">CALORIES CALCULATOR</a></li>
+          <li>DISEASE</a></li>
+          <li>BEST SPECIALIST</a></li>
+          <li>WOMEN’S CARE</a></li>
+          <li>BLOOD BANK</a></li>
+          <li>SYMPTOMS CHECKER</a></li>
+          <li>EMERGENCY / FIRST AID</a></li>
+        </ol>
+        </details>
+      
+    </div>
+  </body>
+</html>
